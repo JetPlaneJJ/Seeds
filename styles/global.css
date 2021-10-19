@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@font-face {
+    font-family: Sansita;
+    src: url(../public/fonts/Sansita-Regular.ttf);
+}
+
+.title {
+    font-family: Sansita;
+}
+
+header {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerTitle {
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Sansita;
+    color: #212121;
+}
+.headerItems {
+    margin-right: 2rem;
+}
+
+
